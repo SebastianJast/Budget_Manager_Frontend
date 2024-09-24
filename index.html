@@ -13,10 +13,17 @@
       <title>Budget Manager</title>
     </head>
     <body>
+      <header>
+        <div class="container col-xxl-10 px-4 py-1">
+          <h1 class="display-1 fw-bold text-white lh-1 mt-4">
+            Budget Manager
+          </h1>
+        </div>
+      </header>
       <main>
-        <div class="container col-xxl-10 px-4 py-5">
+        <div class="container col-xxl-10 px-4 py-1">
           <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-              <div class="col-10 col-sm-8 col-lg-6">
+              <div class="col-12 col-sm-12 col-lg-6">
                   <img
                     src="./images/budget.svg"
                     class="d-block mx-lg-auto img-fluid"
@@ -26,10 +33,7 @@
                     loading="lazy"
                     />
             </div>
-            <div class="col-lg-5">
-              <h1 class="display-1 fw-bold text-white lh-1 mb-3">
-                Budget Manager
-              </h1>
+            <div class="col-lg-6">
               <p class="lead text-white">
                 Masz ciągle problemy finasowe? Nie wiesz ile wydałeś i na co
                 wydałeś? Ta aplikacja jest właśnie dla Ciebie! Dzięki aplikacji
@@ -37,13 +41,22 @@
                 Wystarczy tylko dokonać darmowej rejestracji i zalogować się na
                 wybrane konto.
               </p>
+              <div class="step mt-2 border border-white p-1">
+                <p class="lead text-white"><span class="fw-bold">Krok1: </span>Załóż konto i dołącz do grona użytkowników</p>
+              </div>
+              <div class="step mt-2 border border-white p-1">
+                <p class="lead text-white"><span class="fw-bold">Krok2: </span>Dodaj swoje przychody oraz wydatki do aplikacji, a następnie sprawdź ich bilans</p>
+              </div>
+              <div class="step mt-2 border border-white p-1">
+                <p class="lead text-white"><span class="fw-bold">Krok3: </span>Obserwuj gromadzone oszczędności lub dowiedz się, czy znajdujesz się pod kreską</p>
+              </div>
               <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 btn-register">
+                <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 mt-4 btn-register">
                   Rejestracja
                 </button>
                 <button
                   type="button"
-                  class="btn btn-outline-secondary btn-lg px-4">
+                  class="btn btn-outline-secondary btn-lg px-3 mt-4">
                   Logowanie
                 </button>
               </div>
@@ -51,5 +64,18 @@
           </div>
         </div>
       </main>
+      <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-1 my-1 border-top">
+          <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+              <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+            </a>
+            <span class="mb-3 mb-md-0 text-white">© 2024 Sebastian J</span>
+          </div>
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-body-secondary" href="https://github.com/SebastianJast"><img src="./fonts/github-brands-solid.svg" alt="Github Icon" width="24" height="24"></a></li>
+          </ul>
+        </footer>
+      </div>
     </body>
   </html>
