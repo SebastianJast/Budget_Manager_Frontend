@@ -12,3 +12,7 @@ body {
 .btn-register {
     background-color: #778DFC;
 }
+
+.btn-sign-in {
+    font-size: 1.2em;
+}
