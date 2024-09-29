@@ -14,31 +14,53 @@
   </head>
   <body>
     <header>
-      <div class="container col-xxl-10 px-2">
+      <div
+        class="container col-xxl-10 d-flex justify-content-lg-start justify-content-center"
+      >
         <h1 class="display-1 fw-bold text-white lh-1 mt-4">Budget Manager</h1>
       </div>
       <div class="container">
-        <nav class="d-flex justify-content-center align-items-center py-3">
-          <ul class="nav nav-pills">
-            <li class="nav-item px-2">
-              <a href="#" class="nav-link text-white" aria-current="page">Strona główna</a>
-            </li>
-            <li class="nav-item px-2">
-              <a href="#" class="nav-link text-white">Dodaj przychód</a>
-            </li>
-            <li class="nav-item px-2">
-              <a href="#" class="nav-link text-white active">Dodaj wydatek</a>
-            </li>
-            <li class="nav-item px-2">
-              <a href="#" class="nav-link text-white">Przeglądaj bilans</a>
-            </li>
-            <li class="nav-item px-2">
-              <a href="#" class="nav-link text-white">Ustawienia</a>
-            </li>
-            <li class="nav-item px-2">
-              <a href="#" class="nav-link text-white">Wyloguj się</a>
-            </li>
-          </ul>
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="d-flex justify-content-end container-fluid">
+            <button
+              class="navbar-toggler bg-white"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse justify-content-center"
+              id="navbarNav"
+            >
+              <ul class="navbar-nav flex-lg-row flex-column align-items-center">
+                <li class="nav-item px-2">
+                  <a href="#" class="nav-link text-white" aria-current="page"
+                    >Strona główna</a
+                  >
+                </li>
+                <li class="nav-item px-2">
+                  <a href="#" class="nav-link text-white">Dodaj przychód</a>
+                </li>
+                <li class="nav-item px-2">
+                  <a href="#" class="nav-link text-white">Dodaj wydatek</a>
+                </li>
+                <li class="nav-item px-2">
+                  <a href="#" class="nav-link text-white">Przeglądaj bilans</a>
+                </li>
+                <li class="nav-item px-2">
+                  <a href="#" class="nav-link text-white">Ustawienia</a>
+                </li>
+                <li class="nav-item px-2  ">
+                  <a href="#" class="nav-link text-white">Wyloguj się</a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </nav>
       </div>
     </header>
@@ -107,7 +129,7 @@
     </main>
     <div class="container">
       <footer
-      class="d-flex flex-wrap justify-content-between align-items-center py-1 my-1 border-top"
+      class="d-flex flex-wrap justify-content-between align-items-center py-1 my-5 border-top"
     >
       <div class="col-md-4 d-flex align-items-center">
         <a
