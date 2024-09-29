@@ -23,7 +23,7 @@ Users should be able to:
 ### Screenshot
 
 ![Screenshot solution](./images/screenshot.jpg)
-  
+
 ## My process
 
 ### Built with
