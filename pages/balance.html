@@ -55,7 +55,7 @@
                 <li class="nav-item px-2">
                   <a href="#" class="nav-link text-white">Ustawienia</a>
                 </li>
-                <li class="nav-item px-2">
+                <li class="nav-item px-2  ">
                   <a href="#" class="nav-link text-white">Wyloguj się</a>
                 </li>
                 <li class="nav-item dropdown">
@@ -279,7 +279,7 @@
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <h5 class="modal-title" id="exampleModalLabel">Wybierz zakres dat:</h5>
               <button
                 type="button"
                 class="btn-close"
@@ -287,7 +287,28 @@
                 aria-label="Close"
               ></button>
             </div>
-            <div class="modal-body">...</div>
+            <div class="modal-body">
+              <p class="my-2">Zakres od:</p>
+              <div class="form-floating my-1">
+                <input
+                  type="date"
+                  class="form-control"
+                  id="dateInput"
+                  required
+                />
+                <label for="dateInput">Data</label>
+              </div>
+              <p class="my-2">Zakres do:</p>
+              <div class="form-floating my-1">
+                <input
+                  type="date"
+                  class="form-control"
+                  id="dateInput"
+                  required
+                />
+                <label for="dateInput">Data</label>
+              </div>
+            </div>
             <div class="modal-footer">
               <button
                 type="button"
@@ -297,7 +318,7 @@
                 Close
               </button>
               <button type="button" class="btn btn-primary">
-                Save changes
+                Ok
               </button>
             </div>
           </div>
