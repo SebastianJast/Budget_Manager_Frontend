@@ -24,10 +24,6 @@ Users should be able to:
 
 ![Screenshot solution](./images/screenshot.jpg)
 
-### Links
-
-- Solution URL: [Add solution URL here](https://sebastianjast.github.io/Budget_Manager_Frontend/)
-
 ## My process
 
 ### Built with
