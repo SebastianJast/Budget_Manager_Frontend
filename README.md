@@ -23,7 +23,7 @@ Users should be able to:
 ### Screenshot
 
 ![Screenshot solution](./images/screenshot.jpg)
-  
+
 ## My process
 
 ### Built with
@@ -39,8 +39,9 @@ During this project, I improved my skills in:
 
 - Responsive Design: Using Bootstrap's grid system and media queries for a fluid, mobile-first design.
 - JavaScript: Implementing core budget management functionalities such as adding, updating, and tracking incomes and expenses.
-- User Experience: Streamlining the user registration and login process to create an intuitive interface for managing personal finances.  
+- User Experience: Streamlining the user registration and login process to create an intuitive interface for managing personal finances.
 
 ## Author
 
 - GitHub - [@yourusername](https://github.com/SebastianJast)
+- Website - [Sebastian](https://sebastianjast.github.io/Responsive_CV/)
