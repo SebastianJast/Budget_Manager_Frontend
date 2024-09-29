@@ -16,3 +16,11 @@ body {
 .btn-sign-in {
     font-size: 1.2em;
 }
+
+.pen {
+    cursor: pointer;
+}
+
+.trash {
+    cursor: pointer;
+}
