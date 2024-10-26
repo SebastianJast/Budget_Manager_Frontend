@@ -43,5 +43,5 @@ During this project, I improved my skills in:
 
 ## Author
 
-- GitHub - [SebastianJast](https://github.com/SebastianJast)
+- GitHub - [@SebastianJast](https://github.com/SebastianJast)
 - Website - [Sebastian](https://sebastianjast.github.io/Responsive_CV/)
